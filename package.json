@@ -1,12 +1,17 @@
 {
-  "name": "tc_bc-group-6",
+  "name": "TC_BT_Group_6",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "TC_BC_Group 6",
+  "author": "TC_BT_Group_6",
   "license": "ISC",
-  "description": "Simple Portfolio Server (Serving Static HTML, CSS, and image filess using Node.js, http, and fs)"
+  "description": "Simple Portfolio Server (Serving Static HTML, CSS, and image filess using Node.js, http, and fs)",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
