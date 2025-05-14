@@ -5,22 +5,51 @@
 <head>
   <meta charset="UTF-8" />
   <title>My Portfolio</title>
+  <link rel="icon" href="/images/icon.png">
   <link rel="stylesheet" href="/css/style.css" />
 </head>
 <body>
   <header>
-    <h1>Welcome</h1>
+    <h2><em>My Portfolio</em></h2>
   </header>
 
   <main>
-    <img src="/images/agba_tutor.jpg" alt="agba_tutor">  
-    <h2>I'm <%= name%></h2>
-    <h3><%= title%></h3> 
-    <p><%= bio%></p> 
+    <img src="/images/agba_tutor.png" alt="agba_tutor"> </td>
+    <h1><%= name %></h1>
+    <em>
+      <p>I'm a <%= title %></p> 
+      <p><%= bio%></p>
+    </em>
+    <hr>
+    <h3>Technical Skills</h3>
+    <ul>
+      <em>
+        <li><b>Programming Languages:</b> Node.js</li>
+        <li><b>Databases:</b> MySQL and MongoDB</li>
+        <li><b>Tools & Technologies:</b> Version Control (Git)</li>
+      </em>
+    </ul>
+    <hr>
+    <h3>Working Experience</h3>
+    <ul>
+      <em>
+        <li><b>Web Development:</b> 1yr</li>
+      </em>
+    </ul>
+    <hr>
+    <h3>Education</h3>
+    <ul>
+      <em>
+        <li>Primary School</li>
+        <li>Secondary School</li>
+        <li>University</li>
+      </em>
+    </ul>
+    <hr>
   </main> 
 
   <footer>
-    <p>&copy; Engineer Tobi,2025</p>
+    <p>&copy; Engineer Tobi, 2025</p>
   </footer>
 </body>
 </html>

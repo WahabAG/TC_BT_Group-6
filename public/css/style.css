@@ -1,2 +1,33 @@
+body {
+    background-color: #FFF1D5;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 120%;
+  }
 
+h3 {
+    color: #5F8B4C;
+}
 
+h2 {
+    color: #5F8B4C;
+}
+h1 {
+    color: #FF9149;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0;
+  }
+
+  hr {
+    color: #74512D;
+    border: none; 
+    border-top: 5px dotted;
+    width: auto; 
+    margin: 1em auto; 
+    width: 30px;
+  }
